@@ -1,0 +1,135 @@
+    {
+
+        "SliderContent_":[
+            {   
+                "sliderTitle":"Arch Design Studio", 
+                "sliderDesc":"A Very Personal Approach to Every Client", 
+                "sliderText":"Elegant Solutions to Complex Problems",
+                "sliderBtn":"GET STARTED" 
+            },
+            { 
+                "sliderTitle":"Arch Design Studio 2", 
+                "sliderDesc":"A Very Personal Approach to Every Client", 
+                "sliderText":"Elegant Solutions to Complex Problems",
+                "sliderBtn":"GET STARTED" 
+            }
+        ],
+
+        "ServicesContent" : [
+            {
+                "serviceIcon" : "faSwatchbook",
+                "serviceHeader" : "Design & Planning",
+                "serviceContent" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.",
+                "serviceContent_2" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+            },{
+                "serviceIcon" : "faPaintRoller",
+                "serviceHeader" : "Interior Design",
+                "serviceContent" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.",
+                "serviceContent_2" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+            },{
+                "serviceIcon" : "faDrawPolygon",
+                "serviceHeader" : "Exterior Design",
+                "serviceContent" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.",
+                "serviceContent_2" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+            },{
+                "serviceIcon" : "faSwatchbook",
+                "serviceHeader" : "Design & Planning",
+                "serviceContent" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.",
+                "serviceContent_2" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+            }
+        ],
+        "CommentsData" : [
+            {
+                "commentNum": "01",
+                "commentTitle": "RESEARCH",
+                "commentText": "Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac."
+            },
+            {
+                "commentNum": "02",
+                "commentTitle": "WORK",
+                "commentText": "Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac."
+            },
+            {
+                "commentNum": "03",
+                "commentTitle": "DELIVERY",
+                "commentText": "Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac."
+            }
+        ],
+        "SkillsData" : [
+            {
+                "skillTitle": "SAMPLE SKILL 1",
+                "skillValue": 85
+            },
+            {
+                "skillTitle": "SAMPLE SKILL 2",
+                "skillValue": 92
+            },
+            {
+                "skillTitle": "SAMPLE SKILL 3",
+                "skillValue": 75
+            }
+        ],
+        "QuestionsData" : [
+            {
+                "questionText": "Can you work with clients long distance?",
+                "questionAnswer": "Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin."
+            },
+            {
+                "questionText": "What is the structure of your architecture practice?",
+                "questionAnswer": "Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin."
+            },
+            {
+                "questionText": "What’s the largest project you’ve ever worked on?",
+                "questionAnswer": "Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin."
+            },
+            {
+                "questionText": "Why do I need an architect?",
+                "questionAnswer": "Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin."
+            },
+            {
+                "questionText": "What does an architect actually do?",
+                "questionAnswer": "Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin."
+            }
+        ],
+        "feedbackTexts" : [
+            {
+                "feedbackContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "feedbackWriter": "John Smith"
+            },
+            {
+                "feedbackContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "feedbackWriter": "John Smith"
+            },
+            {
+                "feedbackContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum tortor. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "feedbackWriter": "John Smith"
+            }
+        ],
+        "AllBlogs" : [
+            {
+                "blogData": "December 20, 2020",
+                "blogCreate": "JOHN DOE",
+                "blogTitle": "Lorem ipsum dolor sit a met 1",
+                "blogBody": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+                "blogBody_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet..."
+            },{
+                "blogData": "December 20, 2020",
+                "blogCreate": "JOHN DOE",
+                "blogTitle": "Lorem ipsum dolor sit a met 2",
+                "blogBody": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+                "blogBody_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet..."
+            },{
+                "blogData": "December 20, 2020",
+                "blogCreate": "JOHN DOE",
+                "blogTitle": "Lorem ipsum dolor sit a met 3",
+                "blogBody": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+                "blogBody_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet..."
+            },{
+                "blogData": "December 20, 2020",
+                "blogCreate": "JOHN DOE",
+                "blogTitle": "Lorem ipsum dolor sit a met 4",
+                "blogBody": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+                "blogBody_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus lacus, rutrum sit amet..."
+            }
+        ]
+    }

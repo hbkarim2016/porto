@@ -1,0 +1,75 @@
+
+.section-comments .comments{
+    padding: 0;
+    align-items: center;
+}
+.section-comments .comments .img-1,
+.section-comments .comments .img-2{
+    z-index: 1;
+    height: 400px;
+    background-size: auto 125%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.section-comments .comments .img-1{
+    background-image: url(../main_imgs/generic-3.jpg);
+}
+.section-comments .comments .img-2{
+    background-image: url(../main_imgs/generic-4.jpg);
+}
+.section-comments .comments .comment-single{
+    position: relative;
+    z-index: 2;
+    left: -20%;
+    width: 140%;
+    color: white;
+    background-color: var(--main-color);
+    padding: var(--middle-global-size);
+    padding-right: var(--big-global-size);
+    overflow: hidden;
+    padding-bottom: var(--big-global-size);
+}
+.section-comments .comments .comment-single .comment-content-data{
+    width: 350%;
+    display: grid;
+    grid-template-columns: repeat( auto-fill,minmax( 24%, 1fr ) );
+    grid-gap: 5%;
+    position: relative;
+}
+.section-comments .comments .comment-single .comment-content-data.comment_1{
+    left:0;
+}
+.section-comments .comments .comment-single .comment-content-data.comment_2{
+    left:calc( (-350% / 3 - 5% ));
+}
+.section-comments .comments .comment-single .comment-content-data.comment_3{
+    left:calc( (-350% / 3 - 5% ) * 2 );
+}
+.section-comments .comments .comment-single .comment-header{
+    margin-bottom: var(--middle-global-size);
+}
+.section-comments .comments .comment-single .comment-header span{
+    color: var(--dark-color);
+    font-weight: 900;
+    font-size: 90px;
+    opacity: 0.5;
+    z-index: 1;
+    display: block;
+    position: relative;
+}
+.section-comments .comments .comment-single .comment-header h3{
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-top: -70px;
+    z-index: 3;
+    display: block;
+    position: relative;
+    color: white;
+}
+.section-comments .comments .comment-single .comment-btn{
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}

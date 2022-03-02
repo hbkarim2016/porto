@@ -1,0 +1,93 @@
+/* = GLOBAL STYLE SERVICES SECTION = */
+.services-content{
+    margin-top: -176px !important;
+    overflow: hidden;
+    z-index: 2;
+}
+.services-content .services{
+    width: 134%;
+    position: relative;
+    display: grid;
+    justify-content: flex-start;
+    align-items: center;
+    opacity: 1;
+    grid-template-columns: repeat(auto-fill,minmax(23%,1fr));
+}
+.services-content .services.service-1st{
+    left:0;
+}
+.services-content .services.service-2nd{
+    left: -34%;
+}
+/* 360px width */
+.services-content .services.service-3th{
+    left: -68%;
+}
+/* 360px width */
+.services-content .services.service-4fr{
+    left: -1115px;
+}
+/*================================*/
+/*= SINGLE SERVICE =*/
+.services-content .single-service{
+    background: white;
+    padding: calc(var(--big-2-global-size) + 15px) var(--big-2-global-size);
+    border: 1px solid var(--second-dark-color);
+    position: relative;
+    text-align: center;
+}
+.services-content .single-service .service-icon{
+    color: black;
+    font-size: 70px;
+    margin:var(--little-small-space);
+    margin-top: 0;
+}
+.services-content .single-service .service-header{
+    margin: var(--middle-2-global-size) var(--little-small-space);
+    color: var(--main-color);
+    font-size: var(--small-global-size);
+}
+.services-content .single-service .service-content{
+    color: var(--dark-color);
+    padding: var(--little-small-space);
+    line-height: 1.7;
+}
+.services-content .single-service:hover{
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+.services-content .single-service:hover *{
+    color: white;
+}
+/*-----------------------*/
+/* = CIRCLES = */
+.services-content .circles-slider{
+    margin: var(--small-global-size);
+}
+.services-content .circles-slider .circle-slider{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    opacity: .25;
+    border: 2px solid var(--dark-color);
+    margin:6px 3px;
+}
+.services-content .circles-slider .circle-slider:nth-child(3),
+.services-content .circles-slider .circle-slider:nth-child(4){
+    display: none;
+}
+.services-content .circles-slider .circle-slider.active,
+.services-content .circles-slider .circle-slider:hover{
+    background: var(--main-color);
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    padding: 6px;
+    opacity: 1;
+    border-radius: 10px;
+    margin: 6px;
+}
+/*-----------------------*/
+

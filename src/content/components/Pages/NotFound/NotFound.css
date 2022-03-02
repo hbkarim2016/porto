@@ -1,0 +1,21 @@
+.notFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-dark-color);
+    padding: calc(var(--big-global-size) * 2) var(--big-global-size);
+    flex-direction: column;
+    padding-top: 140px;
+}
+.notFound h1,
+.notFound span{
+    font-weight: 901;
+    font-size: 110px;
+    display: block;
+    margin-bottom: -30px;
+    color: #34495E;
+}
+.notFound p{
+    font-size: var(--big-fontSize);
+    color: #34495E;
+}

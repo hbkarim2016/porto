@@ -1,0 +1,13 @@
+.section-blogs{
+    padding-bottom: var(--big-global-size);
+}
+.section-blogs .section-header{
+    text-align: center;
+    overflow: hidden;
+}
+.section-blogs .blog-single{
+    background: var(--dark-white-color);
+}
+.section-blogs .blog-single .blog-title a{
+    font-size: 16px;
+}

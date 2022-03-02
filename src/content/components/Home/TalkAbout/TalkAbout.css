@@ -1,0 +1,15 @@
+.TalkAbout{
+    background: var(--main-color);
+    width: 100%;
+    padding: var(--big-2-global-size);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TalkAbout h2{
+    font-size: var(--big-fontSize);
+    color: white;
+}
+.TalkAbout .btn{
+    margin: 0;
+}

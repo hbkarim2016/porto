@@ -1,0 +1,37 @@
+
+.skills-content .skill-single{
+    padding: var(--middle-global-size) 0;
+    position: relative;
+}
+.skills-content .skill-single .skill-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skills-content .skill-single .skill-header .skill-value-num{
+    font-size: var(--small-fontSize);
+    color: var(--dark-color);
+}
+.skills-content .skill-single .skill-header h5{
+    color: var(--main-color);
+    padding-bottom: 4px;
+}
+
+.skills-content .skill-single .skill-body{
+    position: relative;
+    width: 100%;
+}
+
+.skills-content .skill-single .skill-value{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 2px;
+    background: var(--second-dark-color);
+}
+
+.skills-content .skill-single .bg-skill-value{
+    background: var(--main-color);
+}

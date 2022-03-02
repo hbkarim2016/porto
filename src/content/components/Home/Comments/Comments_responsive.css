@@ -1,0 +1,17 @@
+/*
+    -- little screen : 1200px
+    -- tablet screen : 990px
+    -- mobile screen : 800px
+*/
+@media (max-width:1200px){
+    .section-comments .comments .img-1,
+    .section-comments .comments .img-2{
+        display: none;
+    }
+    .section-comments .comments .comment-single{
+        left: 0;
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+}

@@ -1,0 +1,23 @@
+@media (max-width:1200px) {
+    .allService-single-content .allService .allService-single-side,
+    .allService-single-content .allService .allService-single-header,
+    .allService-single-content .allService .allService-single-talkAbout{
+        grid-column-start: 1;
+        grid-column-end: 17;
+    }
+    .allService-single-content .allService .allService-single-side{
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .allService-single-content .allService .allService-single-header{
+        grid-row-start: 2;
+        grid-row-end: auto;
+    }
+    .allService-single-content .allService .allService-single-talkAbout{
+        grid-row-start: 3;
+    }
+    .allService-single-content .allService .allService-single-talkAbout .TalkAbout .btn {
+        margin-top: var(--middle-global-size);
+        margin-bottom: 0;
+    }
+}

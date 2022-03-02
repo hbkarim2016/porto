@@ -1,0 +1,76 @@
+@keyframes btnBorder {
+    0%{
+        width: 105%;
+        height: 114%;
+        left: -4%;
+        top: -12%;
+    }
+    100%{
+        width: 98%;
+        height: 95%;
+        left: 0%;
+        top: 0%;
+    }
+}
+@keyframes showElement {
+    0%{
+        opacity: 0;
+        display: none;
+    }
+    100%{
+        opacity: 1;
+        display: block;
+    }
+}
+@keyframes hideElement {
+    0%{
+        opacity: 1;
+        display: block;
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+}
+/* -- ANIMATION SHOW ELEMENTS DIRECTION -- */
+@keyframes showUp {
+    0%{
+        opacity: 0;
+        top: 100px;
+    }
+    100%{
+        opacity: 1;
+        top: 0;
+    }
+}
+@keyframes showDown {
+    0%{
+        opacity: 0;
+        top: -100px;
+    }
+    100%{
+        opacity: 1;
+        top: 0;
+    }
+}
+@keyframes showRight {
+    0%{
+        opacity: 0;
+        right: -100px;
+    }
+    100%{
+        opacity: 1;
+        right: 0;
+    }
+}
+@keyframes showLeft {
+    0%{
+        opacity: 0;
+        left: -100px;
+    }
+    100%{
+        opacity: 1;
+        left: 0;
+    }
+}
+/* --------------------- */

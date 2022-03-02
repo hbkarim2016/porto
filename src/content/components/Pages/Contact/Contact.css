@@ -1,0 +1,28 @@
+.contact-content .grid-3-cols{
+    grid-template-columns: repeat(auto-fill,minmax( 30%,1fr ));
+}
+.contact-content .contact-us-1 .contact-us,
+.contact-content .contact-us-2 .contact-us,
+.contact-content .contact-us-3 .contact-us{
+    padding-top: var(--little-small-space);
+    padding-bottom: var(--little-small-space);
+}
+.contact-content .contact-us *{
+    letter-spacing: 0;
+}
+.contact .contact-form h2
+{
+    margin-bottom: var(--middle-2-global-size);
+}
+.contact .contact-form input,
+.contact .contact-form textarea{
+    background: var(--dark-white-color);
+    margin: var(--little-small-space) 0;
+    color: var(--dark-color);
+    font-weight: 600;
+    border: 2px solid var(--dark-white-color);
+}
+.contact .contact-form input:focus,
+.contact .contact-form textarea:focus{
+    border: 2px solid var(--dark-color);
+}

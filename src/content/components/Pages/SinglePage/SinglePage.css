@@ -1,0 +1,96 @@
+.allService-single-content .allService{
+    display: grid;
+}
+.allService-single-content .allService .allService-single-side,
+.allService-single-content .allService .allService-single-talkAbout{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.allService-single-content .allService .allService-single-side{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: var(--middle-global-size);
+}
+.allService-single-content .allService .allService-single-talkAbout{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: var(--middle-global-size);
+}
+.allService-single-content .allService .allService-single-talkAbout .TalkAbout{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    line-height: 1.7;
+    border: 4px solid var(--dark-white-color);
+}
+.allService-single-content .allService .allService-single-side .allService-side-nav{
+    padding:var(--small-global-size) 0;
+    border: 4px solid var(--dark-white-color);
+    margin-top: var(--middle-global-size);
+    background-color: var(--main-color);
+}
+.allService-single-content .allService .allService-single-side .allService-side-nav h3 a{
+    display: block;
+    color: var(--second-dark-color);
+    padding: var(--small-global-size) var(--middle-global-size);
+}
+.allService-single-content .allService .allService-single-side .allService-side-nav h3 a.active{
+    color: var(--main-dark-color);
+    background: var(--dark-white-color);
+    position: relative;
+}
+.allService-single-content .allService .allService-single-side .allService-side-nav h3 a.active::before,
+.allService-single-content .allService .allService-single-side .allService-side-nav h3 a.active::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background: #2a2a2a;
+    height: 6px;
+}
+.allService-single-content .allService .allService-single-side .allService-side-nav h3 a.active::before{
+    top: 0;
+    border-radius: 0px 0px 90px 90px;
+}
+.allService-single-content .allService .allService-single-side .allService-side-nav h3 a.active::after{
+    bottom: 0;
+    border-radius:90px 90px 0px 0px;
+}
+.allService-single-content .allService .allService-single-header{
+    grid-column-start: 3;
+    grid-column-end: 26;
+    padding: var(--big-2-global-size);
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.allService-single-content .allService .allService-single-header .allService-single-imgs img{
+    width: 100%;
+}
+.allService-single-content .allService .allService-single-header .section-header{
+    display: grid;
+    justify-content: center;
+}
+.allService-single-content .allService .allService-single-header .section-header .header-description{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-items: center;
+    display: flex;
+}
+.allService-single-content .allService .allService-single-header .section-header h1{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 100px;
+    padding: var(--little-small-space);
+    text-align: right;
+}
+.allService-single-content .allService .allService-single-header .section-header .description{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}

@@ -1,0 +1,30 @@
+/*
+    = MEDIA SCREENS SIZES
+        - 992PX TABLET SCREEN
+        - 768PX MOBILES SCREEN
+*/
+@media (max-width:992px){
+    .slider-content .slider-imgs .slider-img-1,
+    .slider-content .slider-imgs .slider-img-2{
+        width: 100%;
+    }
+    .slider-content .slider-imgs.right .slider-img-1,
+    .slider-content .slider-imgs.left .slider-img-2{
+        background-position-y: -1010%;
+        height: 0;
+    }
+    .slider-content .slider-imgs.left .slider-img-1,
+    .slider-content .slider-imgs.right .slider-img-2{
+        background-position-y: 10%;
+        height: 100%;
+    }
+}
+@media (max-width:800px){
+    .slider-content .slider-text .slider-text-content h3{
+        padding: 10px 0;
+    }
+    .main-slider-section,
+    .slider-content .slider-imgs {
+        height: 550px;
+    }
+}

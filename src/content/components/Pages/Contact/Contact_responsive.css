@@ -1,0 +1,5 @@
+@media (max-width:1200px) {
+    .contact-content .grid-3-cols{
+        grid-template-columns: repeat(auto-fill,minmax( 100%,1fr ));
+    }
+}

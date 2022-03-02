@@ -1,0 +1,33 @@
+.section-needSpaceBetter .empty-span{
+    width: 100%;
+    display: block;
+    height: calc(var(--big-global-size) + var(--small-global-size));
+}
+.needSpaceBetter .needSpaceBetter-imgs{
+    position: relative;
+    height: 400px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 10px 115px;
+    background-image: url(../main_imgs/arch-plan-2.jpg);
+}
+.needSpaceBetter .needSpaceBetter-imgs .needSpaceBetter-img-1{
+    top: 0;
+    left: 0%;
+    background-image: url(../main_imgs/ac2-generic-1.jpg);
+}
+.needSpaceBetter .needSpaceBetter-imgs .needSpaceBetter-img-2{
+    background-image: url(../main_imgs/ac2-generic-2.jpg);
+    bottom: 60px !important;
+    left: 10% !important;
+}
+.needSpaceBetter .needSpaceBetter-imgs .needSpaceBetter-img-1,
+.needSpaceBetter .needSpaceBetter-imgs .needSpaceBetter-img-2{
+    width: 300px;
+    height: 274px;
+    position: absolute;
+    z-index: 1;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

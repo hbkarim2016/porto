@@ -1,0 +1,22 @@
+.allServices .allServices-content .services-content{
+    margin-top: var(--middle-global-size) !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.allServices .allServices-content .services-content .single-service{
+    width: 312px;
+    margin: var(--little-small-space);
+}
+.allServices .allServices-content .services-content .single-service,
+.allServices .allServices-content .services-content .single-service *{
+    opacity: 1 !important;
+}
+.allServices .allServices-content .allSkills{
+    padding-top: var(--big-global-size);
+    padding-bottom: var(--big-global-size);
+}
+.allServices .allServices-content .talkAbout-content,
+.allServices .allServices-content .questions-content{
+    padding-bottom: var(--big-global-size);
+}

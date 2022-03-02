@@ -1,0 +1,62 @@
+/*
+    = MEDIA SCREENS SIZES
+        - 1200PX LITTLE SCREEN
+        - 992PX TABLET SCREEN
+        - 768PX MOBILES SCREEN
+*/
+/* - 1200PX LITTLE SCREEN - */
+@media (max-width:1200px){
+    .littleFullWidth{
+        width: 100% !important;
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+}
+/*- 992PX TABLET SCREEN-*/
+@media (max-width:992px){
+    .content-container{
+        width: 95%;
+    }
+    .grid-6-cols{
+        grid-template-columns: repeat(auto-fill,minmax( 240px,1fr ));
+    }
+    .grid-4-cols{
+        grid-template-columns: repeat(auto-fill,minmax( 50%,1fr ));
+    }
+    .grid-2-cols{
+        grid-template-columns: repeat(auto-fill,minmax(100%,1fr));
+    }
+    .grid-1-2-mini{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .grid-2-3-mini{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
+/*- 768PX TABLET SCREEN-*/
+@media (max-width:800px){
+    /* VARIABLES */
+    :root{
+        --big-global-size:30px;
+        --big-2-global-size:30px;
+        --middle-global-size:25px;
+        --big-fontSize:20px;
+        --middle-2-global-size:15px;
+    }
+    /* BUTTONS */
+    .btn{
+        padding: 10px var(--middle-global-size);
+        line-height: 2;
+        padding-bottom: 5px;
+        font-size: var(--small-fontSize);
+    }
+    /* SECTION HEADER */
+    .section-header .section-header-desc .bg-header{
+        font-size: calc(var(--big-global-size) * 3);
+    }
+    .grid-4-cols {
+        grid-template-columns: repeat(auto-fill,minmax( 100%,1fr ));
+    }
+}

@@ -1,0 +1,21 @@
+.counter{
+    justify-content: center;
+    align-items: center;
+    background: #f1f1f1;
+    padding-top: var(--big-2-global-size);
+    padding-bottom: var(--big-2-global-size);
+}
+.counter .grid-counter{
+    text-align: center;
+    padding:var(--middle-global-size);
+}
+.counter .grid-counter h1{
+    color: var(--main-color);
+    font-size: 50px;
+    font-weight: 901;
+}
+.counter .grid-counter p{
+    font-size: var(--small-fontSize);
+    letter-spacing: 3px;
+    color: var(--dark-color);
+}

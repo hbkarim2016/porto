@@ -1,0 +1,17 @@
+.section{
+    position: relative;
+}
+.services-section-style{
+    overflow: visible;
+}
+.section .bg-services{
+    background-image: url(../main_imgs/arch-plan-1.jpg);
+    position: absolute;
+    top: -145px;
+    right: 0;
+    width: 400px;
+    height: 360px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

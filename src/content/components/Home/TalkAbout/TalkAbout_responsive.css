@@ -1,0 +1,9 @@
+@media (max-width:1200px){
+    .TalkAbout{
+        display: block;
+        text-align: center;
+    }
+    .TalkAbout .btn{
+        margin: var(--middle-global-size);
+    }
+}

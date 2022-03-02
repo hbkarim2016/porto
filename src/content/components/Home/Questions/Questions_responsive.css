@@ -1,0 +1,14 @@
+@media (max-width: 1200px){
+    .grid-7-cols.questions{
+            grid-template-columns: repeat(auto-fill,minmax( 100%,1fr ));
+    }
+    .questions .section-header{
+        grid-column-start: 1;
+        grid-column-end: 9;
+    }
+    .questions .questions-content{
+        grid-column-start: 1;
+        grid-column-end: 9;
+        padding:var(--big-2-global-size) 0;
+    }
+}

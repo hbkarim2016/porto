@@ -1,0 +1,26 @@
+.Ads{
+    padding: var(--big-global-size) 0;
+    border-top: 1px solid var(--second-dark-color);
+    padding-bottom:0 ;
+}
+.Ads .ads-logo-8,
+.Ads .ads-logo-9,
+.Ads .ads-logo-10,
+.Ads .ads-logo-11,
+.Ads .ads-logo-12,
+.Ads .ads-logo-13{
+    padding: var(--little-small-space);
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Ads .ads-logo-8 img,
+.Ads .ads-logo-9 img,
+.Ads .ads-logo-10 img,
+.Ads .ads-logo-11 img,
+.Ads .ads-logo-12 img,
+.Ads .ads-logo-13 img{
+    max-width: 120px;
+    max-height: 40px;
+}
