@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/porto/static/css/main.b9a8e4ed.css",
-    "main.js": "/porto/static/js/main.8ee7ce90.js",
+    "main.js": "/porto/static/js/main.f4fc19fd.js",
     "static/media/slide-1-2.jpg": "/porto/static/media/slide-1-2.17661b49cde2ea418003.jpg",
     "static/media/generic-4.jpg": "/porto/static/media/generic-4.5f5c2063acada7cdf787.jpg",
     "static/media/1-1.jpg": "/porto/static/media/1-1.d2cb8a028ec8c22cce0c.jpg",
@@ -25,10 +25,10 @@
     "static/media/blog-thumb-3.jpg": "/porto/static/media/blog-thumb-3.1d2db563ee80ee50bc8f.jpg",
     "index.html": "/porto/index.html",
     "main.b9a8e4ed.css.map": "/porto/static/css/main.b9a8e4ed.css.map",
-    "main.8ee7ce90.js.map": "/porto/static/js/main.8ee7ce90.js.map"
+    "main.f4fc19fd.js.map": "/porto/static/js/main.f4fc19fd.js.map"
   },
   "entrypoints": [
     "static/css/main.b9a8e4ed.css",
-    "static/js/main.8ee7ce90.js"
+    "static/js/main.f4fc19fd.js"
   ]
 }
