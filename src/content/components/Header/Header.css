@@ -29,11 +29,11 @@
     }
     .links ul li{
         display: inline-block;
+        margin: 0 20px;
     }
     .links ul li a{
         color:white;
         padding: 25px 0;
-        margin: 0 20px;
     }
 
     /* ACTIVE LINK STYLE */
@@ -80,6 +80,7 @@
     .links ul li .services-menu a{
         padding: 10px 0;
         font-size: var(--small-fontSize);
+        margin-right:20px
     }
     .links ul .services-menu-link .services-menu li a::after{
         display: none;

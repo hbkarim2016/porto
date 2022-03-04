@@ -10,6 +10,7 @@ import Api from '../../../../Api/Api';
 import TalkAbout from '../../Home/TalkAbout/TalkAbout';
 import Questions from '../../Home/Questions/Questions';
 import Skills from '../../Home/Skills/Skills';
+import { Link } from 'react-router-dom';
 // ==========================================================
 
 const AllServices = () => {
@@ -17,7 +18,7 @@ const AllServices = () => {
     let countValue = 0;
     const openService = indx => {
         let indxValue = indx + 1;
-        window.location.pathname = 'services/'+indxValue;
+        window.location.pathname = '/services/'+indxValue;
     }
     return(
         <section className="allServices">
@@ -25,7 +26,10 @@ const AllServices = () => {
                 <div className='container'>
                     <div className="page-header-content">
                         <h1>Services</h1>
-                        <h4><a href="/">Home</a> / Services</h4>
+                        <h4>
+                        <Link target="_blank" to='/'>
+                            <span>Home</span>
+                        </Link> / Services</h4>
                     </div>
                 </div>
             </div>

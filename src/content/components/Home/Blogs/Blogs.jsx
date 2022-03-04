@@ -13,6 +13,7 @@ import { faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons';
 // ==========================================================
 // LOCAL API
 import Api from '../../../../Api/Api';
+import { Link } from 'react-router-dom';
 // ==========================================================
 
 const Blogs = () => {
@@ -22,7 +23,7 @@ const Blogs = () => {
     const goLocation = indx => {
         window.location.pathname = '';
         window.location.hash = '';
-        window.location.pathname = `/blogs/${indx+1}`;
+        window.location.pathname = `blogs/${indx+1}`;
     }
     return(
         <div className="section-blogs">
@@ -48,7 +49,11 @@ const Blogs = () => {
                                         <span>{el.blogData} | BY {el.blogCreate}</span>
                                     </div>
                                     <div data-aos='fade-up' data-aos-delay={countValue + 200} className='blog-title'>
-                                        <h3><a href={`/blogs/${indx+1}`}>{el.blogTitle}</a></h3>
+                                        <h3>
+                                            <Link to={`/blogs/${indx+1}`}>
+                                                <span>{el.blogTitle}</span>
+                                            </Link>
+                                        </h3>
                                     </div>
                                     <div data-aos='fade-left' data-aos-delay={countValue + 200} className='blog-text'>
                                         <p>{el.blogBody_2}</p>

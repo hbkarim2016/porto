@@ -31,26 +31,26 @@ function Footer(){
                 <div>
                     <h3>Useful Links</h3>
                     <ul>
-                        <li data-aos='fade-down' data-aos-delay='100'><a href='/services'>Our Services</a></li>
-                        <li data-aos='fade-down' data-aos-delay='200'><a href='/'>Payment Methods</a></li>
-                        <li data-aos='fade-down' data-aos-delay='300'><a href='/'>Services Guide</a></li>
-                        <li data-aos='fade-down' data-aos-delay='400'><a href='/'>FAQs</a></li>
+                        <li data-aos='fade-down' data-aos-delay='100'><a href='#/'>Our Services</a></li>
+                        <li data-aos='fade-down' data-aos-delay='200'><a href='#/'>Payment Methods</a></li>
+                        <li data-aos='fade-down' data-aos-delay='300'><a href='#/'>Services Guide</a></li>
+                        <li data-aos='fade-down' data-aos-delay='400'><a href='#/'>FAQs</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3>Services</h3>
                     <ul>
-                        <li data-aos='fade-down' data-aos-delay='100'><a href='/services/1'>Design & Planning</a></li>
-                        <li data-aos='fade-down' data-aos-delay='200'><a href='/services/2'>Interior Design</a></li>
-                        <li data-aos='fade-down' data-aos-delay='300'><a href='/services/3'>Exterior Design</a></li>
-                        <li data-aos='fade-down' data-aos-delay='400'><a href='/services/4'>Construction Drawings</a></li>
+                        <li data-aos='fade-down' data-aos-delay='100'><a href='#/'>Design & Planning</a></li>
+                        <li data-aos='fade-down' data-aos-delay='200'><a href='#/'>Interior Design</a></li>
+                        <li data-aos='fade-down' data-aos-delay='300'><a href='#/'>Exterior Design</a></li>
+                        <li data-aos='fade-down' data-aos-delay='400'><a href='#/'>Construction Drawings</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3>About</h3>
                     <ul>
-                        <li data-aos='fade-down' data-aos-delay='100'><a href='/'>About Us</a></li>
-                        <li data-aos='fade-down' data-aos-delay='200'><a href='/contact'>Send a Message</a></li>
+                        <li data-aos='fade-down' data-aos-delay='100'><a href='#/'>About Us</a></li>
+                        <li data-aos='fade-down' data-aos-delay='200'><a href='#/'>Send a Message</a></li>
                     </ul>
                 </div>
                 <div>

@@ -11,7 +11,7 @@ const About = () => {
                 <div className='container'>
                     <div className="page-header-content">
                         <h1>About</h1>
-                        <h4><a href="/">Home</a> / About Us</h4>
+                        <h4><a href="/porto/">Home</a> / About Us</h4>
                     </div>
                 </div>
             </div>

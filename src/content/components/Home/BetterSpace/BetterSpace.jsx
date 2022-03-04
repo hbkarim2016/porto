@@ -4,11 +4,6 @@ import Image from '../main_imgs/divider.jpg';
 
 const BetterSpace = () => {
 
-    let goContact = () => {
-        window.location.pathname = '';
-        window.location.hash = '';
-        window.location.pathname = 'contact';
-    }
     return(
         <section id="BetterSpace" className="section-needSpaceBetter section container">
             <span className='empty-span'></span>
@@ -25,7 +20,7 @@ const BetterSpace = () => {
                         <img className='header-line' alt='header-line' src={Image} />
                         <p data-aos='fade-up' className='header-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p>
                         <p data-aos='fade-down' className='description'>Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac, finibus.</p>
-                        <button data-aos='fade-right' onClick={goContact} className='btn btn-dark'>CONTACT US</button>
+                        <button data-aos='fade-right' className='btn btn-dark'>CONTACT US</button>
                     </div>
                 </div>
             </div>

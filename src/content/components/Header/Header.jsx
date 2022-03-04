@@ -18,6 +18,7 @@ import Logo from '../Home/main_imgs/logo-1.png';
 // STYLES
 import './Header.css';
 import './Header.responsive.css';
+import { Link } from 'react-router-dom';
 // ============================================================
 
 const Header = () => {
@@ -34,7 +35,9 @@ const Header = () => {
         <div className='header'>
             {/* LOGO */}
             <div className='logo flex-start'>
-                <a className='flex-start' href='/'><img src={Logo} alt='logo' /></a>
+                <Link to='/'>
+                    <a target="_blank" rel="noreferrer" className='flex-start'><img src={Logo} alt='logo' /></a>
+                </Link>
             </div> 
             {/* MENU BUTTON MOBILE */}
             <div className='menu-mobile flex-start' onClick={handleNavbar}>

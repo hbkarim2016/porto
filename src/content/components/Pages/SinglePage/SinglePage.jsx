@@ -5,8 +5,11 @@ import Image_3 from '../../Home/main_imgs/blog-thumb-3.jpg';
 import Image_4 from '../../Home/main_imgs/1-1.jpg';
 import Image_5 from '../../Home/main_imgs/6.jpg';
 // ===================================
+// HOOKS
+import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+// ===================================
 // COMPONENTS
-import Parameter from "../../Parameter/Prameter";
 import Api from "../../../../Api/Api";
 import SideBlog from '../Sides/SideBlog';
 import NotFound from '../NotFound/NotFound';
@@ -19,10 +22,8 @@ import './SinglePage_responsive.css';
 import TalkAbout from '../../Home/TalkAbout/TalkAbout';
 // ===================================
 const SinglePage = () => {
-    let parametersValue = Parameter(),
-        parameterFirst = parametersValue.parameterFirst.slice(0,parametersValue.parameterFirst.lastIndexOf('/')),
-        parameterId = parametersValue.parameterLast,
-        blogs = Api().AllBlogs,
+    let params = useParams();
+    let blogs = Api().AllBlogs,
         services = Api().ServicesContent,
         font_awesome_icons = [faSwatchbook,faPaintRoller,faDrawPolygon,faSwatchbook],
         imgs = [
@@ -32,18 +33,23 @@ const SinglePage = () => {
                     {img_1:Image_5, img_2:Image_4}
                 ],
         images = [Image_1,Image_2,Image_3,Image_1];
-
-    console.log(parameterFirst)
-
+    console.log(blogs)
     return(
         <>
-            { parameterFirst === 'blogs' ? 
+            { params.blogsId > 0 ? 
                 <section className="allBlogs">
                     <div className="page-header">
                         <div className='container'>
                             <div className="page-header-content">
-                                <h1>{ blogs[parameterId - 1].blogTitle }</h1>
-                                <h4><a href="/">Home</a> / <a href="/blogs">Blogs</a> / { parameterId }</h4>
+                                <h1>{ blogs[params.blogsId - 1].blogTitle }</h1>
+                                <h4>
+                                    <Link target="_blank" to='/'>
+                                        <span>Home</span>
+                                    </Link> /
+                                    <Link target="_blank" to='/blogs'>
+                                        <span>Blogs</span>
+                                    </Link> / 
+                                    { params.blogsId }</h4>
                             </div>
                         </div>
                     </div>
@@ -51,18 +57,22 @@ const SinglePage = () => {
                         <div className="blogs-content grid-6-pages-cols">
                             <div className="blogs littleFullWidth grid-1-5-full">
                                 <div className='blog-single'>
-                                    <img src={images[parameterId - 1]}  alt='blog-img' />
+                                    <img src={images[params.blogsId - 1]}  alt='blog-img' />
                                     <div className='blog-data'>
-                                        <span>{blogs[parameterId - 1].blogData} | BY {blogs[parameterId - 1].blogCreate}</span>
+                                        <span>{blogs[params.blogsId - 1].blogData} | BY {blogs[params.blogsId - 1].blogCreate}</span>
                                     </div>
                                     <div className='blog-title'>
-                                        <h1><a href={`/blogs/${parameterId}`}>{blogs[parameterId - 1].blogTitle}</a></h1>
+                                        <h1>
+                                            <Link target="_blank" to={`blogs/${params.blogsId}`}>
+                                                <span>{blogs[params.blogsId - 1].blogTitle}</span>
+                                            </Link>
+                                        </h1>
                                     </div>
                                     <div className='blog-text'>
-                                        <p>{blogs[parameterId - 1].blogBody}</p>
+                                        <p>{blogs[params.blogsId - 1].blogBody}</p>
                                     </div>
                                     <div className='blog-text'>
-                                        <p>{blogs[parameterId - 1].blogBody_2}</p>
+                                        <p>{blogs[params.blogsId - 1].blogBody_2}</p>
                                     </div>
                                     
                                 </div>
@@ -75,14 +85,21 @@ const SinglePage = () => {
                 </section>
             :
 
-            parameterFirst === 'services' ? 
+            params.servicesId > 0 ? 
 
                 <section className='allService-single'>
                     <div className="page-header">
                         <div className='container'>
                             <div className="page-header-content">
-                                <h1>{ services[parameterId - 1].serviceHeader }</h1>
-                                <h4><a href="/">Home</a> / <a href="/services">Services</a> / { parameterId }</h4>
+                                <h1>{ services[params.servicesId - 1].serviceHeader }</h1>
+                                <h4>
+                                    <Link target="_blank" to='/'>
+                                        <span>Home</span>
+                                    </Link> /
+                                    <Link target="_blank" to='/services'>
+                                        <span>Services</span>
+                                    </Link> / 
+                                    { params.servicesId }</h4>
                             </div>
                         </div>
                     </div>
@@ -92,28 +109,25 @@ const SinglePage = () => {
                                 <div className='allService-side-nav'>
                                     { services.map( (el,indx) => 
                                         <h3 key={indx}>
-                                            <a 
-                                                className={ parameterId - 1 === indx ? 'active' : '' } 
-                                                href={`/services/${ indx + 1 }`}
-                                            >
-                                                {el.serviceHeader}
-                                            </a>
+                                            <Link className={ params.servicesId - 1 === indx ? 'active' : '' } target="_blank" to={`/services/${ indx + 1 }`}>
+                                                <span>{el.serviceHeader}</span>
+                                            </Link>
                                         </h3>
                                     ) }
                                 </div>
                             </div>
                             <div className='allService-single-header'>
                                 <div className='section-header'>
-                                    <p className='header-description'>{services[parameterId - 1].serviceContent} </p>
-                                    <h1><FontAwesomeIcon icon={font_awesome_icons[parameterId - 1]} /></h1>
-                                    <p className='description'>{services[parameterId - 1].serviceContent_2}</p>
+                                    <p className='header-description'>{services[params.servicesId - 1].serviceContent} </p>
+                                    <h1><FontAwesomeIcon icon={font_awesome_icons[params.servicesId - 1]} /></h1>
+                                    <p className='description'>{services[params.servicesId - 1].serviceContent_2}</p>
                                 </div>
                                 <div className='allService-single-imgs'>
                                     <div className='single-img-1'>
-                                        <img src={imgs[parameterId - 1].img_1} alt='service 1' />
+                                        <img src={imgs[params.servicesId - 1].img_1} alt='service 1' />
                                     </div>
                                     <div className='single-img-2'>
-                                        <img src={imgs[parameterId - 1].img_2} alt='service 2' />
+                                        <img src={imgs[params.servicesId - 1].img_2} alt='service 2' />
                                     </div>
                                 </div>
                             </div>
@@ -123,11 +137,8 @@ const SinglePage = () => {
                         </div>
                     </div>
                 </section>
-
             :
-
                 <NotFound />
-
             }
         </>
     )

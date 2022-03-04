@@ -13,6 +13,7 @@ import { faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons';
 // LOCAL API
 import Api from '../../../../Api/Api';
 import SideBlog from '../Sides/SideBlog';
+import { Link } from 'react-router-dom';
 // ==========================================================
 
 const AllBlogs = () => {
@@ -46,7 +47,11 @@ const AllBlogs = () => {
                                         <span data-aos='fade-down' data-aos-delay={countValue}>{el.blogData} | BY {el.blogCreate}</span>
                                     </div>
                                     <div className='blog-title'>
-                                        <h1 data-aos='fade-up' data-aos-delay={countValue + 200}><a href={`/blogs/${indx + 1}`}>{el.blogTitle}</a></h1>
+                                        <h1 data-aos='fade-up' data-aos-delay={countValue + 200}>
+                                            <Link target='_blank' to={`/blogs/${indx + 1}`}>
+                                                <span>{el.blogTitle}</span>
+                                            </Link>
+                                        </h1>
                                     </div>
                                     <div className='blog-text'>
                                         <p data-aos='fade-left' data-aos-delay={countValue + 200}>{el.blogBody_2}</p>
