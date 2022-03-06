@@ -43,6 +43,24 @@ html {
     letter-spacing: 1px;
     outline: none;
 }
+::scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::scrollbar-track {
+    background: var(--second-dark-color);
+}
+
+/* Handle */
+::scrollbar-thumb {
+    background: var(--main-color);
+}
+
+/* Handle on hover */
+::scrollbar-thumb:hover {
+    background: var(--main-dark-color);
+}
 ::-webkit-scrollbar {
     width: 5px;
 }
