@@ -61,6 +61,24 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--main-dark-color);
 }
+::-moz-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-moz-scrollbar-track {
+    background: var(--second-dark-color);
+}
+
+/* Handle */
+::-moz-scrollbar-thumb {
+    background: var(--main-color);
+}
+
+/* Handle on hover */
+::-moz-scrollbar-thumb:hover {
+    background: var(--main-dark-color);
+}
 ::selection{
     background: var(--main-dark-color);
     color: white;
